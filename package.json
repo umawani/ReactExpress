@@ -1,0 +1,18 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Boilerplate for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Umair Mawani",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
